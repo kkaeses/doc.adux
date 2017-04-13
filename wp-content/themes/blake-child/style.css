@@ -1,0 +1,429 @@
+/*
+Theme Name: Blake Child
+Description: Child theme for the Blake Theme
+Author: KKaeses
+Template: blake
+Version: 1.1.1
+*/
+
+@import url("../blake/style.css");
+
+/*
+______                                                            _                                         _                          _
+| ___ \                                                          | |                                       | |                        | |
+| |_/ /  ___  _ __ ___    ___  __   __  ___     _   _  ___   ___ | |  ___  ___  ___     _ __    __ _  _ __ | |_     _ __    ___   ___ | |_  ___
+|    /  / _ \| '_ ` _ \  / _ \ \ \ / / / _ \   | | | |/ __| / _ \| | / _ \/ __|/ __|   | '_ \  / _` || '__|| __|   | '_ \  / _ \ / __|| __|/ __|
+| |\ \ |  __/| | | | | || (_) | \ V / |  __/   | |_| |\__ \|  __/| ||  __/\__ \\__ \   | |_) || (_| || |   | |_    | |_) || (_) |\__ \| |_ \__ \
+\_| \_| \___||_| |_| |_| \___/   \_/   \___|    \__,_||___/ \___||_| \___||___/|___/   | .__/  \__,_||_|    \__|   | .__/  \___/ |___/ \__||___/
+                                                                                       | |                         | |
+                                                                                       |_|                         |_|
+*/
+#comments{
+	display:none;
+}
+.nav-previous, .share-buttons, .about-author, .nav-next, .metas-container{
+	display:none;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.sidebar{
+		display:none;
+	}
+}
+
+/*
+_____  _  _    _                                  _
+|_   _|(_)| |  | |                                | |
+ | |   _ | |_ | |  ___         _ __    ___   ___ | |_  ___
+ | |  | || __|| | / _ \       | '_ \  / _ \ / __|| __|/ __|
+ | |  | || |_ | ||  __/       | |_) || (_) |\__ \| |_ \__ \
+ \_/  |_| \__||_| \___|       | .__/  \___/ |___/ \__||___/
+															| |
+															|_|
+*/
+
+.the_title{
+	display:inline-block !important;
+	text-align: center;
+}
+
+/*
+______  _____    _   _                   _              ______
+| ___ \|  __ \  | | | |                 | |             | ___ \
+| |_/ /| |  \/  | |_| |  ___   __ _   __| |  ___  _ __  | |_/ /  __ _   __ _   ___  ___
+| ___ \| | __   |  _  | / _ \ / _` | / _` | / _ \| '__| |  __/  / _` | / _` | / _ \/ __|
+| |_/ /| |_\ \  | | | ||  __/| (_| || (_| ||  __/| |    | |    | (_| || (_| ||  __/\__ \
+\____/  \____/  \_| |_/ \___| \__,_| \__,_| \___||_|    \_|     \__,_| \__, | \___||___/
+                                                                        __/ |
+                                                                       |___/
+*/
+
+.fullwidth-container{
+	background-image: url('http://doc.adux.be/wp-content/uploads/2017/02/002.jpg');
+	background-size: cover;
+	background-repeat: round;
+}
+
+
+/*
+___   _  _                                      _                     __                _
+/ _ \ | |(_)                                    | |                   / _|              | |
+/ /_\ \| | _   __ _  _ __       ___   ___  _ __  | |_   ___  _ __     | |_   ___    ___  | |_   ___  _ __
+|  _  || || | / _` || '_ \     / __| / _ \| '_ \ | __| / _ \| '__|    |  _| / _ \  / _ \ | __| / _ \| '__|
+| | | || || || (_| || | | |   | (__ |  __/| | | || |_ |  __/| |       | |  | (_) || (_) || |_ |  __/| |
+\_| |_/|_||_| \__, ||_| |_|    \___| \___||_| |_| \__| \___||_|       |_|   \___/  \___/  \__| \___||_|
+						 __/ |
+						|___/
+*/
+
+.footer_sidebar:nth-child(3){
+
+	text-align:center;
+}
+
+/*
+______                                         ___  ___           _  _         _   __ _  _
+| ___ \                                        |  \/  |          | |(_)       | | / /(_)| |
+| |_/ /  ___  ___  _   _  _ __ ___    ___      | .  . |  ___   __| | _   __ _ | |/ /  _ | |_  ___
+|    /  / _ \/ __|| | | || '_ ` _ \  / _ \     | |\/| | / _ \ / _` || | / _` ||    \ | || __|/ __|
+| |\ \ |  __/\__ \| |_| || | | | | ||  __/     | |  | ||  __/| (_| || || (_| || |\  \| || |_ \__ \
+\_| \_| \___||___/ \__,_||_| |_| |_| \___|     \_|  |_/ \___| \__,_||_| \__,_|\_| \_/|_| \__||___/
+
+
+*/
+div.vc_gitem-post-data-source-post_excerpt  p:nth-child(1) {
+	display: block;
+  	/* Fallback for non-webkit */
+ 	 display: -webkit-box;
+ 	 max-width: 400px;
+  	height: 109.2px;
+  	/* Fallback for non-webkit */
+  	margin: 0 auto;
+  	font-size: 12px;
+  	line-height: 1.4;
+  	-webkit-line-clamp: 7;
+  	-webkit-box-orient: vertical;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+/*
+_____  _                 _    _  _          _      ___  ___           _  _         _   __ _  _
+/  ___|(_)               | |  (_)| |        | |     |  \/  |          | |(_)       | | / /(_)| |
+\ `--.  _  ____  ___     | |_  _ | |_   ___ | |     | .  . |  ___   __| | _   __ _ | |/ /  _ | |_  ___
+`--. \| ||_  / / _ \    | __|| || __| / _ \| |     | |\/| | / _ \ / _` || | / _` ||    \ | || __|/ __|
+/\__/ /| | / / |  __/    | |_ | || |_ |  __/| |     | |  | ||  __/| (_| || || (_| || |\  \| || |_ \__ \
+\____/ |_|/___| \___|     \__||_| \__| \___||_|     \_|  |_/ \___| \__,_||_| \__,_|\_| \_/|_| \__||___/
+
+
+ */
+
+div.vc_gitem-post-data-source-post_title  h4{
+	font-size: 16px !important
+}
+
+/*
+___  ___           _  _         _   __ _       _        _____ ___  ___ _____         _____                _           _
+|  \/  |          | |(_)       | | / /(_)     | |      |_   _||  \/  ||  __ \       /  __ \              | |         (_)
+| .  . |  ___   __| | _   __ _ | |/ /  _  ___ | |_       | |  | .  . || |  \/       | /  \/  ___   _ __  | |_   __ _  _  _ __
+| |\/| | / _ \ / _` || | / _` ||    \ | |/ __|| __|      | |  | |\/| || | __        | |     / _ \ | '_ \ | __| / _` || || '_ \
+| |  | ||  __/| (_| || || (_| || |\  \| |\__ \| |_      _| |_ | |  | || |_\ \       | \__/\| (_) || | | || |_ | (_| || || | | |
+\_|  |_/ \___| \__,_||_| \__,_|\_| \_/|_||___/ \__|     \___/ \_|  |_/ \____/        \____/ \___/ |_| |_| \__| \__,_||_||_| |_|
+
+
+*/
+
+.vc_gitem-zone{
+	background-size:contain !important;
+}
+
+/*
+______              _                        _            ___  ___           _  _         _     _  _
+| ___ \            | |                      | |           |  \/  |          | |(_)       | |   (_)| |
+| |_/ /  ___   ___ | |__    ___  _ __   ___ | |__    ___  | .  . |  ___   __| | _   __ _ | | __ _ | |_  ___
+|    /  / _ \ / __|| '_ \  / _ \| '__| / __|| '_ \  / _ \ | |\/| | / _ \ / _` || | / _` || |/ /| || __|/ __|
+| |\ \ |  __/| (__ | | | ||  __/| |   | (__ | | | ||  __/ | |  | ||  __/| (_| || || (_| ||   < | || |_ \__ \
+\_| \_| \___| \___||_| |_| \___||_|    \___||_| |_| \___| \_|  |_/ \___| \__,_||_| \__,_||_|\_\|_| \__||___/
+
+
+*/
+
+.custom_search_cat{
+	display:none;
+}
+.serachbox{
+	margin-left:10px;
+}
+
+
+/*
+_____         _               ______                _                  ___  ___           _  _         _   __ _  _
+/  __ \       | |              | ___ \              | |                 |  \/  |          | |(_)       | | / /(_)| |
+| /  \/  ___  | |  ___   _ __  | |_/ /  ___   _   _ | |_   ___   _ __   | .  . |  ___   __| | _   __ _ | |/ /  _ | |_  ___
+| |     / _ \ | | / _ \ | '__| | ___ \ / _ \ | | | || __| / _ \ | '_ \  | |\/| | / _ \ / _` || | / _` ||    \ | || __|/ __|
+| \__/\| (_) || || (_) || |    | |_/ /| (_) || |_| || |_ | (_) || | | | | |  | ||  __/| (_| || || (_| || |\  \| || |_ \__ \
+\____/ \___/ |_| \___/ |_|    \____/  \___/  \__,_| \__| \___/ |_| |_| \_|  |_/ \___| \__,_||_| \__,_|\_| \_/|_| \__||___/
+
+
+*/
+
+.vc_btn3-color-juicy-pink{
+	background-color: #e51b40 !important;
+}
+
+/*
+
+___  ___                     ______      _                         _     _____         _
+|  \/  |                     | ___ \    | |                       | |   |_   _|       | |
+| .  . | ___ _ __  _   _     | |_/ /__ _| |_ ___  ___ __ _ _ __ __| |     | | ___  ___| |__  ___ _ __   ___  ___ ___
+| |\/| |/ _ \ '_ \| | | |    |    // _` | __/ _ \/ __/ _` | '__/ _` |     | |/ _ \/ __| '_ \/ __| '_ \ / _ \/ __/ __|
+| |  | |  __/ | | | |_| |    | |\ \ (_| | ||  __/ (_| (_| | | | (_| |     | |  __/ (__| | | \__ \ |_) |  __/ (__\__ \
+\_|  |_/\___|_| |_|\__,_|    \_| \_\__,_|\__\___|\___\__,_|_|  \__,_|     \_/\___|\___|_| |_|___/ .__/ \___|\___|___/
+                                                                                                | |
+                                                                                                |_|
+
+
+ */
+.navbar{
+	border: 0px !important;
+}
+.navbar-brand{
+	padding: 0px!important;
+}
+.nav-pills{
+	margin-left:auto;
+	margin-right: auto;
+	width:54em;
+	margin-bottom: 25px !important;
+}
+
+.tab-content{
+	margin-bottom: 30px;
+
+}
+img[id^="img_"]{
+	width:50em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+@media screen and (max-width: 1024px)
+{
+	.bs-example{
+			width:auto;
+
+	}
+	.nav-pills{
+		width:auto;
+		flex-direction: column !important;
+	}
+}
+
+/*
+
+___  ___                     _____         _
+|  \/  |                    |_   _|       | |
+| .  . | ___ _ __  _   _      | | ___  ___| |__  ___ _ __   ___  ___ ___
+| |\/| |/ _ \ '_ \| | | |     | |/ _ \/ __| '_ \/ __| '_ \ / _ \/ __/ __|
+| |  | |  __/ | | | |_| |     | |  __/ (__| | | \__ \ |_) |  __/ (__\__ \
+\_|  |_/\___|_| |_|\__,_|     \_/\___|\___|_| |_|___/ .__/ \___|\___|___/
+                                                    | |
+                                                    |_|
+
+*/
+
+.techspecs{
+	margin-left:auto;
+	margin-right: auto;
+	width:44em;
+
+}
+
+
+/*
+_____         _                              _             ______         _                                 _
+/  __ \       | |                            (_)            | ___ \       | |                               | |
+| /  \/  __ _ | |_   ___   __ _   ___   _ __  _   ___  ___  | |_/ /  __ _ | |_   ___   ___   __ _  _ __   __| |
+| |     / _` || __| / _ \ / _` | / _ \ | '__|| | / _ \/ __| |    /  / _` || __| / _ \ / __| / _` || '__| / _` |
+| \__/\| (_| || |_ |  __/| (_| || (_) || |   | ||  __/\__ \ | |\ \ | (_| || |_ |  __/| (__ | (_| || |   | (_| |
+\____/ \__,_| \__| \___| \__, | \___/ |_|   |_| \___||___/ \_| \_| \__,_| \__| \___| \___| \__,_||_|    \__,_|
+													__/ |
+												 |___/
+*/
+.wrapper {
+display: table;
+height: 100%;
+width: 100%;
+}
+.container-big {
+display: table-cell;
+padding: 1em;
+text-align: center;
+vertical-align: middle;
+}
+.big-logo {
+width: 100px;
+margin-bottom:15px
+}
+h1.heading {
+color: #fff;
+font-size: 1.15em;
+font-weight: 900;
+margin: 0 0 0.5em;
+color: #505050;
+}
+@media (min-width: 450px) {
+h1.heading {
+  font-size: 3.55em;
+}
+}
+@media (min-width: 760px) {
+h1.heading {
+  font-size: 3.05em;
+}
+}
+@media (min-width: 900px) {
+h1.heading {
+  font-size: 3.25em;
+  margin: 0 0 0.3em;
+	}
+}
+.carbox {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  transition: box-shadow .25s;
+}
+.carbox:hover {
+box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-carbox {
+width: 100%;
+height:200px;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+display:block;
+  overflow: hidden;
+}
+.img-carbox img{
+width: 100%;
+height: 200px;
+object-fit:cover;
+transition: all .25s ease;
+}
+.carbox-content {
+padding:15px;
+text-align:left;
+}
+.carbox-title {
+text-align: center;
+margin-top:0px;
+font-weight: 700;
+font-size: 1.65em;
+}
+.carbox-title a {
+color: #000;
+text-decoration: none !important;
+}
+.carbox-read-more {
+border-top: 1px solid #D4D4D4;
+}
+.carbox-read-more a {
+text-decoration: none !important;
+padding:10px;
+font-weight:600;
+text-transform: uppercase
+}
+
+/*
+_____ _ _                        _                        _            ______  _____
+|_   _(_) |                      | |                      (_)           | ___ \/  __ \
+ | |  _| |_ _ __ ___    ___ __ _| |_ ___  __ _  ___  _ __ _  ___  ___  | |_/ /| /  \/
+ | | | | __| '__/ _ \  / __/ _` | __/ _ \/ _` |/ _ \| '__| |/ _ \/ __| |    / | |
+ | | | | |_| | |  __/ | (_| (_| | ||  __/ (_| | (_) | |  | |  __/\__ \ | |\ \ | \__/\
+ \_/ |_|\__|_|  \___|  \___\__,_|\__\___|\__, |\___/|_|  |_|\___||___/ \_| \_| \____/
+																					__/ |
+																				 |___/
+*/
+.titre_cat{
+	margin-top: 0px !important;
+	margin-bottom: 40px !important;
+}
+.tech-specs{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+/*------Bouton Download------*/
+
+a.regles{
+background-color:rgba(66, 139, 202, 0);
+border-color:rgba(66, 139, 202, 0);
+}
+
+a.regles:hover{
+background-color:rgba(66, 139, 202, 0);
+border-color:rgba(66, 139, 202, 0);
+}
+a.regles:active{
+background-color:rgba(66, 139, 202, 0);
+border-color:rgba(66, 139, 202, 0);
+box-shadow: none !important;
+color: #777777 !important;
+}
+a.regles:focus{
+background-color:rgba(66, 139, 202, 0);
+border-color:rgba(66, 139, 202, 0);
+color: #777777 !important;
+}
+a.regles:active:focus{
+background-color:rgba(66, 139, 202, 0) !important;
+border-color:rgba(66, 139, 202, 0) !important;
+box-shadow: none !important;
+}
+a.lang{
+	color:#fff !important;
+}
+.fa-download{
+	margin-right: 5px;
+}
+.mobile_tech{
+margin-bottom: 20px;
+}
+.center-block{
+margin-bottom: 20px;
+}
+
+/*-------Recherche Mediakits*/
+.asl_image{
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+}
+.asl_res_url{
+	color: black !important;
+}
+.probox{
+	border: 1px solid black !important;
+}
+/*-------Contenu article mediakits---------*/
+
+.txt_mediakits{
+	margin-top: 30px;
+	margin-bottom: 20px !important;
+	text-align: center;
+}
+.img_mediakits{
+	width: 700px;
+}
+.btn_mediakits, .regles{
+	width: 8em;
+}
+
+/**/
+
+.best_cases{
+	width:37em !important;
+}

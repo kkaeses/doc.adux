@@ -1,0 +1,25 @@
+.wpb_verticaltabs .vc_controls .vc_controls-cc{top:0%;}
+.wpb_verticaltab > .wpb_element_wrapper > h4.wpb_element_title{display:none;}
+.wpb_verticaltabs .wpb_verticaltab{float:left;padding: 0em !important;}
+.wpb_verticaltabs .tabs_controls{width:17%;float:left;padding: 1em !important;background-color: #f5f5f5;margin: 35px 0.5% 0 1% !important;border: none;-moz-border-radius-topleft: 0;   -webkit-border-top-left-radius: 0;   border-top-left-radius: 0;   -moz-border-radius-top-right: 0;   -webkit-border-top-right-radius: 0;   border-top-right-radius: 0;}
+.wpb_verticaltabs .tabs_controls li{width:100%;border: none;   background: #FFFFFF;   font-weight: normal;   color: #575757;-moz-border-radius-topleft: 0;   -webkit-border-top-left-radius: 0;   border-top-left-radius: 0;   -moz-border-radius-top-right: 0;   -webkit-border-top-right-radius: 0;   border-top-right-radius: 0;}
+.wpb_verticaltabs .tabs_controls li a{cursor:pointer;color: #555555 !important; padding: .8em 1em !important;width: 100%; width: calc(100% - 2em);}
+.wpb_verticaltabs .tabs_controls li.add_tab_block a{text-align:center;padding-left:0px !important;padding-right:0px !important;width: 100%;}
+.wpb_verticaltabs .wpb_verticaltab{width:73%;}
+.wpb_tabs_holder{display:inline-block;width:99%;}
+
+.wpb_verticaltabs.icon .tabs_controls .ui-tabs-anchor:not(.add_tab){text-align:left;}
+.wpb_verticaltabs.icon .tabs_controls .title{display:none;}
+.wpb_verticaltabs.text .tabs_controls i{display:none;}
+.wpb_verticaltabs.icontext .tabs_controls i{padding-right:10px;}
+.wpb_verticaltab > .controls_column:not(.bottom-controls){width:100%;text-align:right;}
+.wpb_verticaltab > .controls_column:not(.bottom-controls) .column_add, .wpb_verticaltab > .controls_column:not(.bottom-controls) .column_move{display:none;}
+/* .wpb_verticaltab > .vc_controls-visible:not(bottom-controls){display: none;} */
+
+a.ui-tabs-anchor, .ui-state-hover{cursor:pointer !important;}
+.ui-sortable-helper a{cursor:move !important;}
+
+/* inner options */
+.edit_form_line .blake_fa_field, .wpb_edit_form_elements[data-title="Edit Vertical Tab"] .wpb_el_type_textarea_html, .wpb_el_type_tab_id{display:none;}
+.edit_form_line .icons-container i{position:relative;float:left;width:35px;height:30px;border:1px solid #3c3c3c;text-align:center;line-height:30px;cursor:pointer;font-size:20px;}
+.edit_form_line .icons-container i:hover, .edit_form_line .icons-container i.selected{background:#3c3c3c;color:white;font-size:30px;}

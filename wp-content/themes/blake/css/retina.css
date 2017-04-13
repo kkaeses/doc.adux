@@ -1,0 +1,62 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+    .disable-on-mobiles{display: none;}
+    header .navbar-brand img.logo_normal, header .navbar-brand img.logo_after_scroll{display: none !important;}
+    
+	header .navbar-brand img.logo_retina:not(.logo_after_scroll){
+		display: block !important;
+		-webkit-background-size:100%; 
+		-moz-background-size:100%; 
+		-o-background-size:100%; 
+		background-size:100%;
+	}
+	
+	header.header_after_scroll .navbar-brand img.logo_retina.logo_after_scroll{
+		display: block !important;
+		-webkit-background-size:100%; 
+		-moz-background-size:100%; 
+		-o-background-size:100%; 
+		background-size:100%;
+	}
+	#ultimate-heading-38665745dc690b2a4 h2 {
+	    font-size: 20px !important;
+	    font-family: 'Roboto' !important;
+	    font-weight: normal !important;
+	    color: #f2f2f2 !important;
+	}
+	.footer_logo .footer_logo_normal{display: none !important;}
+	
+	.footer_logo .footer_logo_retina{
+		display: block !important;
+		-webkit-background-size:100%; 
+		-moz-background-size:100%; 
+		-o-background-size:100%; 
+		background-size:100%;
+		max-height: 35px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	.footer_logo.align-left .footer_logo_retina{
+		margin-left: 0;
+		text-align: left;
+	}
+	
+	.hide-on-start .navbar-brand img.logo_retina, header.header_after_scroll .navbar-brand img.logo_retina{display: none !important;}
+	
+	/* Videos on IOS */
+	.upb_video_class{background-color: #343434;}
+	
+	.wpcf7 .f-name input, .wpcf7 .f-subject input:not(input[type="checkbox"]), .wpcf7 .f-email input:not(input[type="checkbox"]), .wpcf7 .f-message textarea, .wpcf7 .f-captcha input:not(input[type="checkbox"]), .wpcf7 .f-name textarea, .wpcf7 .blake-request-quote.f3 textarea, .wpcf7 .blake-request-quote input:not(input[type="checkbox"]), .wpcf7 .blake-request-quote textarea, .contact-widget-container input:not(input[type="checkbox"]), .contact-widget-container textarea{
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+		-webkit-appearance: none;
+		border-radius: 0px;
+	}
+	
+
+}

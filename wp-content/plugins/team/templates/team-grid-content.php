@@ -1,0 +1,39 @@
+<?php
+
+/*
+* @Author 		ParaTheme
+* Copyright: 	2015 ParaTheme
+*/
+
+if ( ! defined('ABSPATH')) exit;  // if direct access 
+
+			
+			$html.= '<div class="team-content" style="color:'.$team_items_content_color.';font-size:'.$team_items_content_font_size.';">';
+			$content = apply_filters('the_content', get_the_content());
+			$content = apply_filters( 'team_grid_filter_content',$content );		
+			
+			
+			if($team_items_content=='full'){
+					$html.= $content;
+				}
+			elseif($team_items_content=='excerpt'){
+
+				if($team_items_link_to_post == 'yes'){
+						$html.= wp_trim_words( $content , $team_items_excerpt_count, ' <a style="color:'.$team_items_content_color.';" class="read-more"  href="'. get_permalink() .'">'.$team_items_excerpt_text.'</a>' );	
+					}
+				elseif($team_items_link_to_post == 'custom'){
+						$html.= wp_trim_words( $content , $team_items_excerpt_count, ' <a style="color:'.$team_items_content_color.';" class="read-more" href="'.$team_member_link_to_post.'">'.$team_items_excerpt_text.'</a>' );
+					}
+						
+				elseif($team_items_link_to_post == 'popup'){
+						$html.= wp_trim_words( $content , $team_items_excerpt_count, ' <a style="color:'.$team_items_content_color.';" class="read-more team-popup" teamid="'.get_the_ID().'" href="'. get_permalink() .'">'.$team_items_excerpt_text.'</a>' );
+					}					
+
+				else{
+						$html.= wp_trim_words( $content , $team_items_excerpt_count, ' <a style="color:'.$team_items_content_color.';" class="read-more" href="'. get_permalink() .'">'.$team_items_excerpt_text.'</a>' );
+					}					
+
+				}			
+			$html.= '</div>';
+	
+

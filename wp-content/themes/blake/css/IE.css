@@ -1,0 +1,37 @@
+.info_above_menu > div > *{display: inline-block;}
+.style-top-bar .info_above_menu .telephone, .style-top-bar .info_above_menu .email, .style-top-bar .info_above_menu .address, .style-top-bar .info_above_menu .textfield{padding-top: 0px;padding-bottom: 0px;}   
+textarea{overflow: hidden;}
+.sf-menu li li a{color: #666 !important;}
+.nextbutton.carousel-control{background-position-x: -158px;}
+.nextbutton.carousel-control.hover{background-position-x: -189px;}
+.prevbutton.carousel-control{background-position-x: -94px;}
+.prevbutton.carousel-control.hover{background-position-x: -123px;}
+.tooltip .tt_triangle{opacity: .7;filter: alpha(opacity=70);}
+.blogarchive .post .metas .blog-i,.blogarchive .post .metas .post-categories, .blogarchive .post .metas .the_author, .blogarchive .post .metas .comments, .blogarchive .post .metas .divider-tags a, .divider-tags .date, .divider-tags .tags, .blogarchive .metas .categories a{font-family: Arial;}
+.sf-menu ul{top: 0px;visibility: hidden;}
+.headerstyle-style2 .sf-menu ul {top: 80px;}
+.n-hc .sf-menu ul{margin-top: -22px !important;}
+
+
+/* xugah's edit */
+[data-vc-full-width-init='false'].vc_row{filter:alpha(opacity=100);opacity: 1;}
+.search_input{z-index: -1 !important;}
+.search_input.open{z-index:9999999999999999 !important;}
+
+/* ie fonts (a rever) */
+p, a, h1, h2, h3, h4, h5, h6, .sub-title, .uvc-sub-heading, body, p, .lovepost a, .widget ul li a, .widget p, .widget span, .widget ul li, .the_content ul li, .the_content ol li, #recentcomments li, .custom-widget h4, .widget.widget-newsletter h3, .widget.des_cubeportfolio_widget h4, .widget.des_recent_posts_widget h4, .custom-widget ul li a, .des_partners_widget h4, .aio-icon-description, .mediumlightwhite-spaced, .mediumlarge_light_white, .cbp-l-caption-title, .cbp-l-caption-desc, .medium_light_white, .small_light_white, .ubtn-text, .blake2xtextwhite, .mediumlightdark,.cbp-l-grid-projects-title,.cbp-l-grid-projects-desc, .ult_countdown-period{font-family: Arial, sans-serif !important;}
+.small_light_white{text-align: left !important;}
+
+.blakeverybigwhite, .blake-modernfatwhite, .blake-modernmediumfatwhite, .white_heavy_70, .ult_countdown-amount{font-family: Arial, sans-serif !important; font-weight: bold;}
+
+.style1.testimonials .testimonial p{font-family: Georgia !important;}
+
+.vc_custom_1435687442181{padding: 80px 0 !important;}
+.newsletter_shortcode form input.email{padding: 16px !important;}
+
+.mobile-icon, .mobile-icon2, .mobile-icon3{top: 480px !important;}
+.partners-container.noscroller.innerborder .partners-row{display: -ms-flexbox;}
+
+.vc_single_bar{margin: 5px 0 0; background: #ededed;color: #333; padding: 5px 10px;}
+
+.cbp-popup-wrap{z-index:9999999999;}

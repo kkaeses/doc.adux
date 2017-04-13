@@ -1,0 +1,465 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Latest Posts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"POT-Revision-Date: Mon Feb 15 2016 15:16:06 GMT+0700 (SE Asia Standard "
+"Time)\n"
+"PO-Revision-Date: 2016-06-03 09:58+0700\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#. Name of the plugin
+msgid "WP Latest Posts"
+msgstr "WP Latest Posts"
+
+#. URI of the plugin
+msgid "http://www.joomunited.com/wordpress-products/wp-latest-posts"
+msgstr "https://www.joomunited.com/wordpress-products/wp-latest-posts"
+
+#. Description of the plugin
+msgid "Advanced frontpage and widget news slider"
+msgstr "Gestionnaire de news avancé pour WordPress"
+
+#. Author of the plugin
+msgid "JoomUnited"
+msgstr "JoomUnited"
+
+#. Author URI of the plugin
+msgid "http://www.joomunited.com"
+msgstr "https://www.joomunited.com"
+
+#: ../inc/wp-fpn-front.inc.php:1263
+msgid "Read more..."
+msgstr "Lire la suite"
+
+#: ../inc/wp-fpn-main.inc.php:262
+msgid "WP Latest Posts Blocks"
+msgstr "Blocs de news"
+
+#: ../inc/wp-fpn-main.inc.php:263
+msgid "WPLP Block"
+msgstr "WPLP Bloc"
+
+#: ../inc/wp-fpn-main.inc.php:264
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: ../inc/wp-fpn-main.inc.php:265
+msgid "Add New WPLP Block"
+msgstr "Ajouter bloc news"
+
+#: ../inc/wp-fpn-main.inc.php:266
+msgid "Edit WPLP Block"
+msgstr "Editer block news"
+
+#: ../inc/wp-fpn-main.inc.php:267
+msgid "New WPLP Block"
+msgstr "Nouveau WPLP Bloc"
+
+#: ../inc/wp-fpn-main.inc.php:268
+msgid "All News Blocks"
+msgstr "Tous les blocs news"
+
+#: ../inc/wp-fpn-main.inc.php:269
+msgid "View WPLP Block"
+msgstr "Afficher bloc WPLP"
+
+#: ../inc/wp-fpn-main.inc.php:270
+msgid "Search WPLP Blocks"
+msgstr "Rechercher WPLP blocs"
+
+#: ../inc/wp-fpn-main.inc.php:271
+msgid "No WPLP Block found"
+msgstr "Aucun bloc WPLP"
+
+#: ../inc/wp-fpn-main.inc.php:272
+msgid "No WPLP Block found in Trash"
+msgstr "Aucun WPLP bloc trouvé dans la corbeille"
+
+#: ../inc/wp-fpn-main.inc.php:274
+msgid "Latest Posts"
+msgstr "Derniers posts"
+
+#: ../inc/wp-fpn-main.inc.php:292
+msgid "Latest Posts updated."
+msgstr "Mis à jour"
+
+#: ../inc/wp-fpn-main.inc.php:595
+msgid "WP Latest Posts Block Settings"
+msgstr "Paramètres WP Latest Posts"
+
+#: ../inc/wp-fpn-main.inc.php:701
+msgid "Content source"
+msgstr "Contenu source"
+
+#: ../inc/wp-fpn-main.inc.php:702
+msgid "Display and theme"
+msgstr "Affichage et thème"
+
+#: ../inc/wp-fpn-main.inc.php:703
+msgid "Images source"
+msgstr "Images source"
+
+#: ../inc/wp-fpn-main.inc.php:704
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ../inc/wp-fpn-main.inc.php:749
+msgid "Post categories"
+msgstr "Catégories d'articles"
+
+#: ../inc/wp-fpn-main.inc.php:755
+msgid "Pages"
+msgstr "Pages"
+
+#: ../inc/wp-fpn-main.inc.php:828
+msgid "Show title"
+msgstr "Afficher titre"
+
+#: ../inc/wp-fpn-main.inc.php:831
+msgid "Off"
+msgstr "Off"
+
+#: ../inc/wp-fpn-main.inc.php:833
+msgid "On"
+msgstr "On"
+
+#: ../inc/wp-fpn-main.inc.php:840
+msgid "Number of columns"
+msgstr "Nombre de colonnes"
+
+#: ../inc/wp-fpn-main.inc.php:845
+msgid "Number of rows"
+msgstr "Nombre de lignes"
+
+#: ../inc/wp-fpn-main.inc.php:849
+msgid "Pagination"
+msgstr "Pagination"
+
+#: ../inc/wp-fpn-main.inc.php:860
+msgid "Max number of elements"
+msgstr "Nombre max d'éléments"
+
+#: ../inc/wp-fpn-main.inc.php:865
+msgid "Total width"
+msgstr "Largeur totale"
+
+#: ../inc/wp-fpn-main.inc.php:876
+msgid "Number of posts to skip:"
+msgstr "Nombre d'articles à sauter"
+
+#: ../inc/wp-fpn-main.inc.php:908
+msgid "Theme"
+msgstr "Thème"
+
+#: ../inc/wp-fpn-main.inc.php:995
+msgid "Select Image"
+msgstr "Sélection image"
+
+#: ../inc/wp-fpn-main.inc.php:1031
+msgid "Image size"
+msgstr "Taille d'image"
+
+#: ../inc/wp-fpn-main.inc.php:1033 ../themes/default/default.php:69
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#: ../inc/wp-fpn-main.inc.php:1035
+msgid "Medium"
+msgstr "Medium"
+
+#: ../inc/wp-fpn-main.inc.php:1037
+msgid "Large"
+msgstr "Large"
+
+#: ../inc/wp-fpn-main.inc.php:1048
+msgid "Margin left"
+msgstr "Marge gauche"
+
+#: ../inc/wp-fpn-main.inc.php:1051
+msgid "Margin top"
+msgstr "Marge haute"
+
+#: ../inc/wp-fpn-main.inc.php:1054
+msgid "Margin right"
+msgstr "Marge droite"
+
+#: ../inc/wp-fpn-main.inc.php:1057
+msgid "Margin bottom"
+msgstr "Marge basse"
+
+#: ../inc/wp-fpn-main.inc.php:1088 ../inc/wp-fpn-main.inc.php:1090
+msgid "Date format"
+msgstr "Format date"
+
+#: ../inc/wp-fpn-main.inc.php:1093
+msgid "Text Content"
+msgstr "Contenu texte"
+
+#: ../inc/wp-fpn-main.inc.php:1106
+msgid "Looking out for more <em>advanced</em> features?"
+msgstr "Vous avez besoin de fonctionnalités plus avancées ?"
+
+#: ../inc/wp-fpn-main.inc.php:1107
+msgid ""
+"&rarr;&nbsp;Check out our optional <a href=\"http://www.joomunited.com/"
+"wordpress-products/wp-latest-posts\" target=\"_blank\" >\"Pro\" add-on</a>."
+msgstr ""
+"&rarr;&nbsp;Regardez la version <a href=\"https://www.joomunited.com/"
+"wordpress-products/wp-latest-posts\" target=\"_blank\" >\"Pro\" du plugin</"
+"a>."
+
+#: ../inc/wp-fpn-main.inc.php:1113
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: ../inc/wp-fpn-main.inc.php:1118
+msgid "Copy & paste this code into a template file to display this WPLP block"
+msgstr "Copier/coller ce code dans votre fichier de template"
+
+#: ../inc/wp-fpn-main.inc.php:1141
+msgid "Get Pro version"
+msgstr "Obtenir la version pro"
+
+#: ../inc/wp-fpn-main.inc.php:1142
+msgid "Optional add-on is currently not installed or not enabled"
+msgstr "L'Addon optionnel n'est pas installé ou pas activé"
+
+#: ../inc/wp-fpn-main.inc.php:1143
+msgid "get it here !"
+msgstr "Obtenir l'addon!"
+
+#: ../inc/wp-fpn-main.inc.php:1213
+msgid "Get the Pro version now !"
+msgstr "Obtenir la version pro maintenant"
+
+#: ../inc/wp-fpn-main.inc.php:1220
+msgid ""
+"Initially released in october 2013 by <a href=\"http://www.joomunited.com/"
+"\">JoomUnited</a>"
+msgstr ""
+"Réalisé initialement en octobre 2013 par <a href=\"http://www.joomunited.com/"
+"\">JoomUnited</a"
+
+#: ../inc/wp-fpn-main.inc.php:1222
+msgid "Author: "
+msgstr "Auteur: "
+
+#: ../inc/wp-fpn-main.inc.php:1223
+msgid "Your current version of WordPress is: "
+msgstr "Votre version de WordPress est: "
+
+#: ../inc/wp-fpn-main.inc.php:1224
+msgid "Your current version of PHP is: "
+msgstr "Votre version de PHP est: "
+
+#: ../inc/wp-fpn-main.inc.php:1225
+msgid "Your hosting provider's web server currently runs: "
+msgstr "Votre hébergeur exécute actuellement: "
+
+#: ../inc/wp-fpn-main.inc.php:1226
+msgid ""
+"Please specify all of the above information when contacting us for support."
+msgstr "Merci de spécifier toutes ces information lors d'une demande contact"
+
+#: ../inc/wp-fpn-main.inc.php:1275 ../inc/wp-fpn-main.inc.php:1346
+msgid "Order by"
+msgstr "Classer par"
+
+#: ../inc/wp-fpn-main.inc.php:1277 ../inc/wp-fpn-main.inc.php:1350
+msgid "By date"
+msgstr "Par date"
+
+#: ../inc/wp-fpn-main.inc.php:1278 ../inc/wp-fpn-main.inc.php:1349
+msgid "By title"
+msgstr "Par titre"
+
+#: ../inc/wp-fpn-main.inc.php:1279 ../inc/wp-fpn-main.inc.php:1351
+msgid "By random"
+msgstr "Ordre aléatoire"
+
+#: ../inc/wp-fpn-main.inc.php:1285
+msgid "Posts sort order"
+msgstr "Ordonner les posts"
+
+#: ../inc/wp-fpn-main.inc.php:1287 ../inc/wp-fpn-main.inc.php:1358
+msgid "Ascending"
+msgstr "Croissant"
+
+#: ../inc/wp-fpn-main.inc.php:1288 ../inc/wp-fpn-main.inc.php:1359
+msgid "Descending"
+msgstr "Décroissant"
+
+#: ../inc/wp-fpn-main.inc.php:1348
+msgid "By order"
+msgstr "Par ordre"
+
+#: ../inc/wp-fpn-main.inc.php:1356
+msgid "Pages sort order"
+msgstr "Ordre des pages"
+
+#: ../inc/wp-fpn-main.inc.php:1454
+msgid "Add Latest Posts"
+msgstr "Ajout Latest posts"
+
+#: ../inc/wp-fpn-main.inc.php:1491
+msgid "Select which block to insert:"
+msgstr "Sélection du bloc de news à ajouter:"
+
+#: ../inc/wp-fpn-main.inc.php:1497
+msgid "No Latest Posts Widget has been created."
+msgstr "Aucun widget WP Latest Posts n'a été créé"
+
+#: ../inc/wp-fpn-main.inc.php:1498
+msgid "Please create one to use this button."
+msgstr "Merci d'en créer un en utilisant ce bouton"
+
+#: ../inc/wp-fpn-main.inc.php:1721
+msgid "Get \"pro\" add-on"
+msgstr "Obtenir la version PRO"
+
+#: ../inc/wp-fpn-main.inc.php:1723 ../inc/yd-widget-framework.inc.php:173 ..
+#: /inc/yd-widget-framework.inc.php:576
+msgid "Support"
+msgstr "Support"
+
+#: ../inc/wp-fpn-main.inc.php:1740 ../inc/yd-widget-framework.inc.php:213
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les droits pour accéder à cette page"
+
+#: ../inc/wp-fpn-widget.inc.php:21
+msgid "WP Latest Posts Widget instance"
+msgstr "Instances widget WP Latest Posts"
+
+#: ../inc/wp-fpn-widget.inc.php:112
+msgid ""
+"This widget can be used only once with the free version of the WP Latest "
+"Posts plugin."
+msgstr ""
+"Ce widget ne peut être utilisé qu'une seule fois avec la version gratuite du "
+"plugin"
+
+#: ../inc/wp-fpn-widget.inc.php:114
+msgid ""
+"If you need to configure multiple instances of the widget, please check-out"
+msgstr ""
+"If you need to configure multiple instances of the widget, please check-out"
+
+#: ../inc/wp-fpn-widget.inc.php:116
+msgid "the pro version."
+msgstr "Version pro"
+
+#: ../inc/wp-fpn-widget.inc.php:127
+msgid "No Frontpage News Widget has been created."
+msgstr "Aucun widget de news créé"
+
+#: ../inc/wp-fpn-widget.inc.php:129
+msgid "Please create one to use this widget."
+msgstr "Merci de créer un widget"
+
+#: ../inc/wp-fpn-widget.inc.php:138
+msgid "News Widget:"
+msgstr "Nouveau widget"
+
+#: ../inc/yd-widget-framework.inc.php:170
+#: ../inc/yd-widget-framework.inc.php:183
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../inc/yd-widget-framework.inc.php:350
+#, php-format
+msgid "<strong>Error:</strong> The %s plugin"
+msgstr "<strong>Erreur:</strong> Le %s plugin"
+
+#: ../inc/yd-widget-framework.inc.php:352
+#, php-format
+msgid "Needs <strong>PHP %s</strong> or better."
+msgstr "A besoin de <strong>PHP %s</strong> ou ultérieur."
+
+#: ../themes/default/default.php:53
+msgid "A new item"
+msgstr "Nouvel item"
+
+#: ../themes/default/default.php:58
+msgid "Top"
+msgstr "Haut"
+
+#: ../themes/default/default.php:59
+msgid "Left"
+msgstr "Gauche"
+
+#: ../themes/default/default.php:60
+msgid "Right"
+msgstr "Droite"
+
+#: ../themes/default/default.php:75
+msgid "Title"
+msgstr "Titre"
+
+#: ../themes/default/default.php:81
+msgid "Author"
+msgstr "Ancre"
+
+#: ../themes/default/default.php:87
+msgid "Date"
+msgstr "Date"
+
+#: ../themes/default/default.php:93
+msgid "Text"
+msgstr "Texte"
+
+#: ../themes/default/default.php:99
+msgid "Read more"
+msgstr "Lire la suite"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Arrows"
+msgstr "Flèches"
+
+msgid "Arrows with bullets"
+msgstr "Flèches et points"
+
+msgid "Bullets"
+msgstr "Points"
+
+msgid "Use first image"
+msgstr "Première image"
+
+msgid "Use featured image"
+msgstr "Image à la une"
+
+msgid "Full content"
+msgstr "Tout le contenu"
+
+msgid "Excerpt content"
+msgstr "Extrait du contenu"
+
+msgid "No post text"
+msgstr ""
+
+msgid "No content has been found here, sorry :)"
+msgstr ""
+
+msgid "Load more"
+msgstr ""
+
+msgid "Display load more button"
+msgstr ""
