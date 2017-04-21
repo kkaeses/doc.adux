@@ -19,12 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2017-04-13 09:11:51','Successfully created a new repository.','init','kkaeses'),(2,'2017-04-13 09:22:35','Error pushing changes to the remote repository.','error','kkaeses');
+INSERT INTO `wp_revisr` VALUES (1,'2017-04-13 09:11:51','Successfully created a new repository.','init','kkaeses'),(2,'2017-04-13 09:22:35','Error pushing changes to the remote repository.','error','kkaeses'),(3,'2017-04-13 09:23:28','Successfully backed up the database.','backup','kkaeses'),(4,'2017-04-13 09:27:38','Error pushing changes to the remote repository.','error','kkaeses'),(5,'2017-04-13 09:33:04','Successfully pushed 2 commits to origin/master.','push','kkaeses'),(6,'2017-04-13 09:44:19','Committed <a href=\"http://doc.adux.be/wp-admin/admin.php?page=revisr_view_commit&commit=a24ebda&success=true\">#a24ebda</a> to the local repository.','commit','kkaeses'),(7,'2017-04-13 09:44:22','Successfully pushed 1 commit to origin/master.','push','kkaeses'),(8,'2017-04-13 09:45:57','Successfully pushed 1 commit to origin/master.','push','kkaeses');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
