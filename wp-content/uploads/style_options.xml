@@ -50,7 +50,7 @@
   </option>
   <option>
     <id>blake_headerbg_image_light</id>
-    <value></value>
+    <value>http://doc.adux.be/wp-content/uploads/2017/02/002.jpg</value>
   </option>
   <option>
     <id>blake_headerbg_color_light</id>
@@ -62,7 +62,7 @@
   </option>
   <option>
     <id>blake_headerbg_pattern_light</id>
-    <value></value>
+    <value>none</value>
   </option>
   <option>
     <id>blake_headerbg_custom_pattern_light</id>
@@ -122,11 +122,11 @@
   </option>
   <option>
     <id>blake_headerbg_opacity_dark</id>
-    <value>0</value>
+    <value>0%</value>
   </option>
   <option>
     <id>blake_headerbg_pattern_dark</id>
-    <value></value>
+    <value>pattern5.jpg</value>
   </option>
   <option>
     <id>blake_headerbg_custom_pattern_dark</id>
@@ -558,7 +558,7 @@
   </option>
   <option>
     <id>blake_header_image</id>
-    <value>http://localhost:8888/blake/wp-content/uploads/2017/02/002.jpg</value>
+    <value>http://localhost:8888/Adux_test_export/wp-content/uploads/2017/02/002.jpg</value>
   </option>
   <option>
     <id>blake_pagetitle_image_parallax</id>
@@ -586,19 +586,19 @@
   </option>
   <option>
     <id>blake_header_color</id>
-    <value>EDEDED</value>
+    <value>ffffff</value>
   </option>
   <option>
     <id>blake_header_opacity</id>
-    <value>100</value>
+    <value>100%</value>
   </option>
   <option>
     <id>blake_header_pattern</id>
-    <value>pattern8.jpg</value>
+    <value>pattern9.jpg</value>
   </option>
   <option>
     <id>blake_header_custom_pattern</id>
-    <value>http://localhost:8888/blake/wp-content/uploads/2017/02/002.jpg</value>
+    <value>http://doc.adux.be/wp-content/uploads/2017/02/002.jpg</value>
   </option>
   <option>
     <id>blake_banner_slider</id>

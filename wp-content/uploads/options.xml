@@ -6,11 +6,11 @@
   </option>
   <option>
     <id>blake_website_loader</id>
-    <value>ball-pulse</value>
+    <value>ball-scale</value>
   </option>
   <option>
     <id>blake_enable_website_loader_percentage</id>
-    <value>off</value>
+    <value>on</value>
   </option>
   <option>
     <id>blake_enable_smooth_scroll</id>
@@ -94,7 +94,7 @@
   </option>
   <option>
     <id>blake_project_single_social_shares</id>
-    <value>on</value>
+    <value>off</value>
   </option>
   <option>
     <id>blake_project_single_socials</id>
