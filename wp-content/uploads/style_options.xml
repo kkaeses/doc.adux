@@ -54,11 +54,11 @@
   </option>
   <option>
     <id>blake_headerbg_color_light</id>
-    <value>ffffff</value>
+    <value>000000</value>
   </option>
   <option>
     <id>blake_headerbg_opacity_light</id>
-    <value>0</value>
+    <value>0%</value>
   </option>
   <option>
     <id>blake_headerbg_pattern_light</id>
@@ -90,7 +90,7 @@
   </option>
   <option>
     <id>blake_headerbg_after_scroll_opacity_light</id>
-    <value>100</value>
+    <value>100%</value>
   </option>
   <option>
     <id>blake_headerbg_after_scroll_pattern_light</id>
@@ -154,7 +154,7 @@
   </option>
   <option>
     <id>blake_headerbg_after_scroll_opacity_dark</id>
-    <value>100</value>
+    <value>100%</value>
   </option>
   <option>
     <id>blake_headerbg_after_scroll_pattern_dark</id>
@@ -166,7 +166,7 @@
   </option>
   <option>
     <id>blake_header_after_scroll_icons_color_dark</id>
-    <value>C3C5C5</value>
+    <value>000000</value>
   </option>
   <option>
     <id>blake_header_after_scroll_icons_hover_color_dark</id>
@@ -230,7 +230,7 @@
   </option>
   <option>
     <id>blake_logo_height</id>
-    <value>35px</value>
+    <value>45px</value>
   </option>
   <option>
     <id>blake_logo_after_scroll_margin_top</id>
@@ -242,7 +242,7 @@
   </option>
   <option>
     <id>blake_logo_reduced_height</id>
-    <value>30px</value>
+    <value>45px</value>
   </option>
   <option>
     <id>blake_menu_font_pre_light</id>
@@ -250,11 +250,11 @@
   </option>
   <option>
     <id>blake_menu_color_pre_light</id>
-    <value>ebebeb</value>
+    <value>777</value>
   </option>
   <option>
     <id>blake_menu_color_hover_pre_light</id>
-    <value>ffffff</value>
+    <value>e51b40</value>
   </option>
   <option>
     <id>blake_menu_font_size_pre_light</id>
@@ -278,7 +278,7 @@
   </option>
   <option>
     <id>blake_menu_side_margin_pre_light</id>
-    <value>20px</value>
+    <value>20 px</value>
   </option>
   <option>
     <id>blake_menu_margin_top_pre_light</id>
@@ -294,11 +294,11 @@
   </option>
   <option>
     <id>blake_menu_color_after_light</id>
-    <value>ebebeb</value>
+    <value>777</value>
   </option>
   <option>
     <id>blake_menu_color_hover_after_light</id>
-    <value>242427</value>
+    <value>e51b40</value>
   </option>
   <option>
     <id>blake_menu_font_size_after_light</id>
@@ -338,11 +338,11 @@
   </option>
   <option>
     <id>blake_menu_color_pre_dark</id>
-    <value>585858</value>
+    <value>777</value>
   </option>
   <option>
     <id>blake_menu_color_hover_pre_dark</id>
-    <value>333333</value>
+    <value>e51b40</value>
   </option>
   <option>
     <id>blake_menu_font_size_pre_dark</id>
@@ -382,11 +382,11 @@
   </option>
   <option>
     <id>blake_menu_color_after_dark</id>
-    <value>a1a1a1</value>
+    <value>777</value>
   </option>
   <option>
     <id>blake_menu_color_hover_after_dark</id>
-    <value>333333</value>
+    <value>e51b40</value>
   </option>
   <option>
     <id>blake_menu_font_size_after_dark</id>
@@ -554,7 +554,7 @@
   </option>
   <option>
     <id>blake_header_type</id>
-    <value>custom_pattern</value>
+    <value>color</value>
   </option>
   <option>
     <id>blake_header_image</id>
@@ -606,7 +606,7 @@
   </option>
   <option>
     <id>blake_page_title_padding</id>
-    <value>150px</value>
+    <value>50px</value>
   </option>
   <option>
     <id>blake_header_text_alignment</id>

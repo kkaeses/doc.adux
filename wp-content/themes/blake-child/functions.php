@@ -34,4 +34,9 @@ function exclure_pages_recherche($query) {
 }
 add_filter('pre_get_posts','exclure_pages_recherche');
 endif;
+
+
+
+
 ?>
+

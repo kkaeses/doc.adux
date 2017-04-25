@@ -194,6 +194,7 @@ ___  ___                     ______      _                         _     _____  
 	margin-right: auto;
 	width:54em;
 	margin-bottom: 25px !important;
+	float: none !important;
 }
 
 .tab-content{
@@ -206,16 +207,27 @@ img[id^="img_"]{
 	margin-left: auto;
 	margin-right: auto
 }
+#img_pictures{
+	width:70em;
+}
+#img_video{
+	width:65em;
+}
+#img_media_microsoft{
+	width:55em;
+}
 @media screen and (max-width: 1024px)
 {
 	.bs-example{
-			width:auto;
+		width:auto;
 
 	}
 	.nav-pills{
-		width:auto;
+		display: flex !important;
+		width:auto !important;
 		flex-direction: column !important;
 	}
+	
 }
 
 /*
@@ -364,8 +376,9 @@ background-color:rgba(66, 139, 202, 0);
 border-color:rgba(66, 139, 202, 0);
 }
 
-a.regles:hover{
-background-color:rgba(66, 139, 202, 0);
+a.dwld:hover{
+background-color: #e51b40;
+color:#ffffff !important;
 border-color:rgba(66, 139, 202, 0);
 }
 a.regles:active{
@@ -420,10 +433,33 @@ margin-bottom: 20px;
 }
 .btn_mediakits, .regles{
 	width: 8em;
+	background-color: #e51b40;
+	color:#ffffff !important;
+}
+
+/* Elargissement des best cases*/
+
+.best_cases{
+	width:37em !important;
+}
+
+/*mis en évidence du bouton download */
+
+a.dwld{
+	background-color: #e51b40;
+	color:#ffffff !important;
+}
+
+/*Patch hover menu couleur bootstrap*/
+
+.navbar-collapse > ul > li > a:hover{
+	color: #e51b40 !important;
 }
 
 /**/
 
-.best_cases{
-	width:37em !important;
+@media screen and (max-width: 600px) {
+  #twitter-timeline-search-2{
+    display: none;
+  }
 }
