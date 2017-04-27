@@ -3,17 +3,6 @@
 	if (!defined('UPPER_SHORTNAME')) define('UPPER_SHORTNAME', 'blake');
 
 
-	function my_search_filter( $query ){
-   		if ( $query->is_search ){
-        		$query->set( 'category__not_in','news' );
-   		 }
-   	return $query;
-	}
-	add_filter('pre_get_posts','my_search_filter');
-
-
-
-
 
 function cool_scripts(){
 	wp_enqueue_script('cool-stuff', get_stylesheet_directory_uri() . '/js/script.js',  array('jquery'), '1.0.0',true);
@@ -39,4 +28,3 @@ endif;
 
 
 ?>
-

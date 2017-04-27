@@ -456,10 +456,25 @@ a.dwld{
 	color: #e51b40 !important;
 }
 
-/**/
+/*Suppression flux twitter sur mobile*/
 
 @media screen and (max-width: 600px) {
   #twitter-timeline-search-2{
     display: none;
   }
+}
+
+
+/*Edition catégories*/
+
+h4.carbox-title > a {
+	color: black !important;
+	font-size: 17px !important;
+	font-weight: bold !important;
+}
+
+/**/
+
+h1{
+	font-weight: bold !important;
 }
