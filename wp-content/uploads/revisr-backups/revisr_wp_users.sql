@@ -27,12 +27,12 @@ CREATE TABLE `wp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`),
   KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'kkaeses','$P$Bop0jr/Hq7KXBBpaZN72ui8ZPu0yrx.','kkaeses','kkaeses@adux.com','','2017-02-24 09:01:45','',0,'kkaeses'),(2,'gdecant','$P$BBWyTzmo.yH84jcQahES5UyRFcxguV.','gdecant','gdecant@adux.com','','2017-04-13 07:51:35','',0,'Geoffrey Decant');
+INSERT INTO `wp_users` VALUES (1,'kkaeses','$P$Bop0jr/Hq7KXBBpaZN72ui8ZPu0yrx.','kkaeses','kkaeses@adux.com','','2017-02-24 09:01:45','',0,'kkaeses'),(2,'gdecant','$P$BBWyTzmo.yH84jcQahES5UyRFcxguV.','gdecant','gdecant@adux.com','','2017-04-13 07:51:35','',0,'Geoffrey Decant'),(3,'avandendriessche','$P$BTOah28Sn4HU6iBANBdy/bmO1j2zey/','avandendriessche','avandendriessche@adux.com','','2017-04-21 07:17:07','',0,'Adrien Van den Driessche');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

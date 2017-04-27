@@ -25,7 +25,6 @@ CREATE TABLE `wp_termmeta` (
 
 LOCK TABLES `wp_termmeta` WRITE;
 /*!40000 ALTER TABLE `wp_termmeta` DISABLE KEYS */;
-INSERT INTO `wp_termmeta` VALUES (1,29,'_clever_mega_menu_meta','a:2:{s:7:\"enabled\";s:1:\"1\";s:5:\"theme\";s:14:\"default-461836\";}'),(2,30,'_clever_mega_menu_meta','a:2:{s:7:\"enabled\";s:1:\"0\";s:5:\"theme\";s:3:\"632\";}');
 /*!40000 ALTER TABLE `wp_termmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
