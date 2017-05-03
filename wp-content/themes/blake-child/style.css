@@ -136,6 +136,9 @@ ___  ___           _  _         _   __ _       _        _____ ___  ___ _____    
 	background-size:contain !important;
 }
 
+.vc_btn3-container.vc_btn3-right{
+	text-align:center !important;
+}
 /*
 ______              _                        _            ___  ___           _  _         _     _  _
 | ___ \            | |                      | |           |  \/  |          | |(_)       | |   (_)| |
@@ -477,4 +480,69 @@ h4.carbox-title > a {
 
 h1{
 	font-weight: bold !important;
+}
+
+
+/*Tableau Mediakits*/
+
+div.dataTables_wrapper table.tablepress{
+	width:75% !important;
+	margin-left:auto !important;
+	margin-right: auto !important;
+}
+div.dataTables_wrapper table.tablepress .mediakits_table{
+	width:50% !important;
+	margin-left:auto !important;
+	margin-right: auto !important;
+}
+.tablepress thead th {
+	background-color: #e51b40 !important;
+	color:white !important;
+	border: 0 !important;
+}
+th{
+	text-align:center !important;
+}
+tbody > tr > td {
+	text-align: center !important;
+}
+tbody > tr {
+	border: 0 !important;
+}
+thead > tr > th:first-child{
+	border-top-left-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+}
+thead > tr > th:last-child{
+	border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+}
+div[id^="tablepress-"]{
+	overflow-x: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+	div.vc_gitem-post-data-source-post_excerpt  p:nth-child(1) {
+		display: block;
+  		/* Fallback for non-webkit */
+ 		 display: -webkit-box;
+ 		 max-width: 331px;
+  		height: 41px;
+  		/* Fallback for non-webkit */
+  		margin: 0 auto;
+  		font-size: 14px !important ;
+  		line-height: 1.4;
+  		-webkit-line-clamp: 5;
+  		-webkit-box-orient: vertical;
+  		overflow: hidden;
+  		text-overflow: ellipsis;
+	}
+}
+
+
+/*Disable button*/
+.disable{
+	opacity:0.5;
+	pointer-events: none;
+        cursor: default;
 }
