@@ -27,7 +27,7 @@ CREATE TABLE `wp_term_taxonomy` (
 
 LOCK TABLES `wp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,1),(2,2,'nav_menu','',0,6),(3,3,'team_group','',0,16),(4,4,'category','',0,45),(5,5,'category','',0,3),(6,6,'category','',0,0),(8,8,'category','',4,1),(10,10,'category','',4,0),(11,11,'category','',4,0),(12,12,'category','',4,0),(13,13,'category','',4,0),(14,14,'category','',4,0),(15,15,'category','',4,0),(16,16,'category','',4,0),(17,17,'category','',4,0),(18,18,'category','',4,0),(31,31,'ml-slider','',0,9),(32,32,'ml-slider','',0,8),(33,33,'ml-slider','',0,5),(34,34,'ml-slider','',0,3);
+INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,1),(2,2,'nav_menu','',0,6),(3,3,'team_group','',0,16),(4,4,'category','',0,47),(5,5,'category','',0,3),(6,6,'category','',0,0),(8,8,'category','',4,1),(10,10,'category','',4,0),(11,11,'category','',4,0),(12,12,'category','',4,0),(13,13,'category','',4,0),(14,14,'category','',4,0),(15,15,'category','',4,0),(16,16,'category','',4,0),(17,17,'category','',4,0),(18,18,'category','',4,0),(31,31,'ml-slider','',0,9),(32,32,'ml-slider','',0,8),(33,33,'ml-slider','',0,5),(34,34,'ml-slider','',0,3);
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
