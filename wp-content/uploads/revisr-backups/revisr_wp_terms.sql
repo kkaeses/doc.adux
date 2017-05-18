@@ -20,12 +20,12 @@ CREATE TABLE `wp_terms` (
   PRIMARY KEY (`term_id`),
   KEY `slug` (`slug`(191)),
   KEY `name` (`name`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_terms` WRITE;
 /*!40000 ALTER TABLE `wp_terms` DISABLE KEYS */;
-INSERT INTO `wp_terms` VALUES (1,'Non classé','non-classe',0),(2,'Menu_adux_be','menu_adux_be',0),(3,'Adux_be','adux_be',0),(4,'Mediakits','mediakits',0),(5,'News','news',0),(6,'RateCard','ratecard',0),(8,'Women','women',0),(10,'Food / Drink &amp; Culinary','food-drink-culinary',0),(11,'Automotive &amp; News','automotive-news',0),(12,'Men','men',0),(13,'Kids &amp; Baby','kids-baby',0),(14,'Activities','activities',0),(15,'Lifestyle','lifestyle',0),(16,'Technology','technology',0),(17,'Travel','travel',0),(18,'Entertainment','entertainment',0),(31,'1308','1308',0),(32,'1319','1319',0),(33,'1320','1320',0),(34,'1321','1321',0);
+INSERT INTO `wp_terms` VALUES (1,'Non classé','non-classe',0),(2,'Menu_adux_be','menu_adux_be',0),(3,'Adux_be','adux_be',0),(4,'Mediakits','mediakits',0),(5,'News','news',0),(6,'RateCard','ratecard',0),(8,'Women','women',0),(10,'Food / Drink &amp; Culinary','food-drink-culinary',0),(11,'Automotive &amp; News','automotive-news',0),(12,'Men','men',0),(13,'Kids &amp; Baby','kids-baby',0),(14,'Activities','activities',0),(15,'Lifestyle','lifestyle',0),(16,'Technology','technology',0),(17,'Travel','travel',0),(18,'Entertainment','entertainment',0),(31,'1308','1308',0),(32,'1319','1319',0),(33,'1320','1320',0),(34,'1321','1321',0),(35,'1773','1773',0);
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
