@@ -205,19 +205,31 @@ ___  ___                     ______      _                         _     _____  
 
 }
 img[id^="img_"]{
-	width:50em;
+	width:82em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto
 }
-#img_pictures{
-	width:70em;
+
+#img_programmatic{
+	width:59em;
 }
-#img_video{
-	width:65em;
+
+#img_quantum{
+	width:62em;
 }
+#img_data_segments{
+	width:69em;
+}
+#img_data_microsoft{
+	width:56em
+}
+#img_performance{
+	width:56em;
+}
+
 #img_media_microsoft{
-	width:55em;
+	width:74em;
 }
 @media screen and (max-width: 1024px)
 {
