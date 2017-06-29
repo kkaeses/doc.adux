@@ -278,11 +278,11 @@
   </option>
   <option>
     <id>blake_footer_logo_image_url</id>
-    <value>http://doc.adux.be/wp-content/uploads/2017/02/adux-45x45.png</value>
+    <value>http://doc.adux.be/wp-content/uploads/adux_3-1.png</value>
   </option>
   <option>
     <id>blake_footer_logo_retina_image_url</id>
-    <value>http://doc.adux.be/wp-content/uploads/2017/02/adux-45x45.png</value>
+    <value>http://doc.adux.be/wp-content/uploads/adux_2.png</value>
   </option>
   <option>
     <id>blake_footer_logo_alignment</id>
@@ -290,7 +290,7 @@
   </option>
   <option>
     <id>blake_footer_display_social_icons</id>
-    <value>on</value>
+    <value>off</value>
   </option>
   <option>
     <id>blake_footer_social_icons_alignment</id>
@@ -302,7 +302,7 @@
   </option>
   <option>
     <id>blake_footer_custom_text</id>
-    <value>&lt;p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"&gt;@adux 2017&lt;/p&gt;</value>
+    <value>&lt;p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"&gt;&#xA9; 2017&#xA0;AdUX. All Rights Reserved&lt;/p&gt;</value>
   </option>
   <option>
     <id>blake_footer_custom_text_alignment</id>
