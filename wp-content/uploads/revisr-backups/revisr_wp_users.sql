@@ -27,12 +27,12 @@ CREATE TABLE `wp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`),
   KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'kkaeses','$P$Bop0jr/Hq7KXBBpaZN72ui8ZPu0yrx.','kkaeses','kkaeses@adux.com','','2017-02-24 09:01:45','',0,'kkaeses'),(2,'gdecant','$P$BspPfKmWgvrd0dbusQ8kv/nwMBXcjC1','gdecant','gdecant@adux.com','','2017-04-13 07:51:35','',0,'Geoffrey Decant'),(3,'avandendriessche','$P$BTOah28Sn4HU6iBANBdy/bmO1j2zey/','avandendriessche','avandendriessche@adux.com','','2017-04-21 07:17:07','',0,'Adrien Van den Driessche'),(4,'lbakkaus','$P$BnUpLJ0QSc5UNvwq206RJtt08Nmulj0','lbakkaus','lbakkaus@adux.com','','2017-05-16 12:41:07','',0,'Lesly Bakkaus');
+INSERT INTO `wp_users` VALUES (1,'kkaeses','$P$Bop0jr/Hq7KXBBpaZN72ui8ZPu0yrx.','kkaeses','kkaeses@adux.com','','2017-02-24 09:01:45','',0,'kkaeses'),(2,'gdecant','$P$BspPfKmWgvrd0dbusQ8kv/nwMBXcjC1','gdecant','gdecant@adux.com','','2017-04-13 07:51:35','',0,'Geoffrey Decant'),(3,'avandendriessche','$P$BTOah28Sn4HU6iBANBdy/bmO1j2zey/','avandendriessche','avandendriessche@adux.com','','2017-04-21 07:17:07','',0,'Adrien Van den Driessche'),(4,'lbakkaus','$P$BnUpLJ0QSc5UNvwq206RJtt08Nmulj0','lbakkaus','lbakkaus@adux.com','','2017-05-16 12:41:07','',0,'Lesly Bakkaus'),(5,'yzouari','$P$BnB9wRAmISfPs/9mbVBNphQ.9n/PFr/','yzouari','yzouari@adux.com','','2017-06-28 08:28:04','',0,'yzouari');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

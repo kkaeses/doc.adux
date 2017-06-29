@@ -19,11 +19,12 @@ CREATE TABLE `wp_revslider_static_slides` (
   `layers` longtext NOT NULL,
   `settings` text NOT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revslider_static_slides` WRITE;
 /*!40000 ALTER TABLE `wp_revslider_static_slides` DISABLE KEYS */;
+INSERT INTO `wp_revslider_static_slides` VALUES (1,4,'{\"background_type\":\"trans\",\"image\":\"http:\\/\\/doc.adux.be\\/wp-content\\/\"}','[]','[]');
 /*!40000 ALTER TABLE `wp_revslider_static_slides` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
