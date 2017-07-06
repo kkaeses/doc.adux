@@ -170,7 +170,7 @@ _____         _               ______                _                  ___  ___ 
 */
 
 .vc_btn3-color-juicy-pink{
-	background-color: #e51b40 !important;
+	background-color: #ef7c10 !important;
 }
 
 /*
@@ -395,7 +395,7 @@ border-color:rgba(66, 139, 202, 0);
 }
 
 a.dwld:hover{
-background-color: #e51b40;
+background-color: #ef7c10;
 color:#ffffff !important;
 border-color:rgba(66, 139, 202, 0);
 }
@@ -451,7 +451,7 @@ margin-bottom: 20px;
 }
 .btn_mediakits, .regles{
 	width: 8em;
-	background-color: #e51b40;
+	background-color: #ef7c10;
 	color:#ffffff !important;
 }
 
@@ -464,14 +464,14 @@ margin-bottom: 20px;
 /*mis en évidence du bouton download */
 
 a.dwld{
-	background-color: #e51b40;
+	background-color: #ef7c10;
 	color:#ffffff !important;
 }
 
 /*Patch hover menu couleur bootstrap*/
 
 .navbar-collapse > ul > li > a:hover{
-	color: #e51b40 !important;
+	color: #ef7c10 !important;
 }
 
 /*Suppression flux twitter sur mobile*/
@@ -511,7 +511,7 @@ div.dataTables_wrapper table.tablepress .mediakits_table{
 	margin-right: auto !important;
 }
 .tablepress thead th {
-	background-color: #e51b40 !important;
+	background-color: #ef7c10 !important;
 	color:white !important;
 	border: 0 !important;
 }

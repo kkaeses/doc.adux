@@ -6,7 +6,7 @@
   </option>
   <option>
     <id>blake_style_color</id>
-    <value>d63b33</value>
+    <value>ef7c10</value>
   </option>
   <option>
     <id>blake_body_type</id>
@@ -170,7 +170,7 @@
   </option>
   <option>
     <id>blake_header_after_scroll_icons_hover_color_dark</id>
-    <value>EDB44D</value>
+    <value>ef7c10</value>
   </option>
   <option>
     <id>blake_topbar_bg_color</id>
@@ -250,11 +250,11 @@
   </option>
   <option>
     <id>blake_menu_color_pre_light</id>
-    <value>777</value>
+    <value>fff</value>
   </option>
   <option>
     <id>blake_menu_color_hover_pre_light</id>
-    <value>e51b40</value>
+    <value>ef7c10</value>
   </option>
   <option>
     <id>blake_menu_font_size_pre_light</id>
@@ -294,11 +294,11 @@
   </option>
   <option>
     <id>blake_menu_color_after_light</id>
-    <value>777</value>
+    <value>000</value>
   </option>
   <option>
     <id>blake_menu_color_hover_after_light</id>
-    <value>e51b40</value>
+    <value>ef7c10</value>
   </option>
   <option>
     <id>blake_menu_font_size_after_light</id>
@@ -338,11 +338,11 @@
   </option>
   <option>
     <id>blake_menu_color_pre_dark</id>
-    <value>777</value>
+    <value>000</value>
   </option>
   <option>
     <id>blake_menu_color_hover_pre_dark</id>
-    <value>e51b40</value>
+    <value>ef7c10</value>
   </option>
   <option>
     <id>blake_menu_font_size_pre_dark</id>
@@ -382,11 +382,11 @@
   </option>
   <option>
     <id>blake_menu_color_after_dark</id>
-    <value>777</value>
+    <value>000</value>
   </option>
   <option>
     <id>blake_menu_color_hover_after_dark</id>
-    <value>e51b40</value>
+    <value>ef7c10</value>
   </option>
   <option>
     <id>blake_menu_font_size_after_dark</id>
@@ -902,11 +902,11 @@
   </option>
   <option>
     <id>blake_links_color</id>
-    <value>777777</value>
+    <value>000</value>
   </option>
   <option>
     <id>blake_links_color_hover</id>
-    <value>e51b40</value>
+    <value>ef7c10</value>
   </option>
   <option>
     <id>blake_links_bg_color_hover</id>
